@@ -12,7 +12,7 @@ export default defineConfig({
     TanStackRouterVite({ autoCodeSplitting: true }),
     tanstackStart({
       server: {
-        preset: "vercel",
+        entry: "src/server.ts",
       },
     }),
     react(),
